@@ -1,0 +1,10 @@
+apiVersion: compute.gce.infradvisor.fr/v1
+kind: Instance
+metadata:
+  name: instance-sample2
+  namespace: xxl
+spec:
+  # Add fields here
+  foo: bar
+  type: testit
+  replicas: 5
