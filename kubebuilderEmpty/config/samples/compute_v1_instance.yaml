@@ -1,0 +1,7 @@
+apiVersion: compute.gce.infradvisor.fr/v1
+kind: Instance
+metadata:
+  name: instance-sample
+spec:
+  # Add fields here
+  foo: bar
