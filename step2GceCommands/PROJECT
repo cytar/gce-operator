@@ -1,0 +1,8 @@
+domain: gce.infradvisor.fr
+multigroup: true
+repo: gce-operator
+resources:
+- group: compute
+  kind: Instance
+  version: v1
+version: "2"
